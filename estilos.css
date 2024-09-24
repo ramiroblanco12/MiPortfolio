@@ -1,0 +1,339 @@
+.centrar{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  position:relative;
+  height: auto;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: auto;
+  font-size: 20px;
+  border-radius:20px;
+  text-align: center;
+  padding: 10px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  align-items: center;
+  justify-content: center;
+}
+
+.centrar:hover{
+  background-color: rgba(77, 77, 66, 0.479);
+  border: 2px solid rgba(77, 77, 66, 0.479);
+  color:#ffffff ;
+}
+
+#mipor{
+  background-image: url(./colores\ raros.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+#titulo{
+  
+  font-family:arial,helvetica,sans-serif;
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+#hero{
+  min-height: 100vh;
+  position: relative;
+}
+
+video{
+  position:absolute;
+  top:0%;
+  left:0%;
+  width:100vw;
+  height: 100vh;
+  object-fit:cover ;
+}
+
+.capa{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100vw;
+    height:100vh;
+    object-fit: cover;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+/*-------- PANTALLA DE INCIO CON MENU-------- */
+
+#ini{
+  background-image: url(./color\ raro2.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#btnSobre{
+  display:block;
+  height: 40px;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 10px;
+  font-size: 20px;
+  border-radius:20px;
+  margin: 10px 60px;
+  padding: 10px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+}
+
+#btnSobre:hover{
+  background-color: rgba(77, 77, 66, 0.479);
+  border: 2px solid rgba(77, 77, 66, 0.479);
+  color:#ffffff ;
+}
+
+#btnCono{
+  display:block;
+  height: 30px;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 10px;
+  font-size: 20px;
+  border-radius:20px;
+  margin: 10px 60px;
+  padding: 10px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+}
+
+#btnCono:hover{
+  background-color: rgba(77, 77, 66, 0.479);
+  border: 2px solid rgba(77, 77, 66, 0.479);
+  color:#ffffff ;
+}
+#btnContac{
+  display:block;
+  height: 30px;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 10px;
+  font-size: 20px;
+  border-radius:20px;
+  margin: 10px 70px;
+  padding: 10px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+}
+
+#btnContac:hover{
+  background-color: rgba(77, 77, 66, 0.479);
+  border: 2px solid rgba(77, 77, 66, 0.479);
+  color:#ffffff ;
+}
+
+
+/*-----------SOBRE MI------------*/
+
+#sobre{
+  background-image: url(./color\ raro3.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+
+header{
+  position: relative;
+  z-index: 2;
+  color: rgb(90, 90, 255);
+}
+#btnini{
+  display:flex;
+  width: 30px;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 400;
+  border-radius:20px;
+  margin: px px;
+  padding: 20px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+}
+
+#btnini:hover{
+  background-color: rgba(77, 77, 66, 0.479);
+  border: 2px solid rgba(77, 77, 66, 0.479);
+  color:#ffffff ;
+}
+
+
+
+.recgran{
+  position: relative;
+  width: 700px;
+  height: 400px;
+  margin: 3vw 30vh;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  z-index: 2;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#Tsobre{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  margin: 5vw 40vh;
+  z-index: 2;
+  color: rgb(90, 90, 255);
+}
+
+/*-----------Conocimientos------------*/
+
+#cono{
+  background-image: url(./color\ raro4.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+h1{
+  position: relative;
+  z-index: 2;
+  color: rgb(90, 90, 255);
+  text-align: center;
+}
+
+#btnini{
+  display:flex;
+  width: 30px;
+  font-family:arial,helvetica,sans-serif;
+  font-weight: 400;
+  border-radius:20px;
+  margin: px px;
+  padding: 20px 60px;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+}
+
+.foto{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.imagen{
+  width: 150px;
+  height: auto;
+}
+
+
+/*---------CONTACTOS--------*/
+
+
+#principal{
+  background-image: url(./color\ raro5.jpg);
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+
+
+
+.cont{
+  width: 100%;
+  max-width: 100px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+.cont h2{
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.cont a{
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color:orange;
+  font-weight: 700;
+}
+.cont form a i{
+  color:orange;
+  margin-right: 10px;
+}
+.contenedor form .campo, textarea{
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+}
+.cont form textarea{
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.cont .btn-enviar{
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background:orange ;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition:all 300ms ease ;
+}
+.cont .btn-enviar:hover{
+  background: #e39403;
+
+}
+
+
+
+
+
+
+
